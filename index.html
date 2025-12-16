@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anonymous Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+  <header class="glass header">
+  <h2>Nifal Propaganda</h2>
+  <div class="status">
+    <span id="onlineCount">0</span> online
+    <button id="themeBtn" class="icon-btn">🌙</button>
+  </div>
+</header>
+
+  <main id="chatBox" class="glass chat-box"></main>
+
+  <footer class="glass input-area">
+    <input id="messageInput" placeholder="Ketik pesan..." autocomplete="off" />
+    <button id="sendBtn">➤</button>
+  </footer>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
